@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TripleApp</string>
+    <string name="title_main">TripleApp</string>
+    <string name="subtitle_main">Three tools in one place</string>
+    <string name="music_player">Music Player</string>
+    <string name="music_desc">Play songs from your device</string>
+    <string name="drawing">Drawing</string>
+    <string name="drawing_desc">Create art with your finger</string>
+    <string name="calculator">Calculator</string>
+    <string name="calc_desc">Do math quickly</string>
+</resources>

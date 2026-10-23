@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🎨 Drawing"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <com.example.tripleapp.DrawingView
+        android:id="@+id/drawingView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#FFFFFF" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="6dp">
+
+        <Button android:id="@+id/colorBlack" android:layout_width="40dp" android:layout_height="40dp" android:layout_weight="1" android:backgroundTint="#000000" />
+        <Button android:id="@+id/colorRed" android:layout_width="40dp" android:layout_height="40dp" android:layout_weight="1" android:backgroundTint="#F44336" />
+        <Button android:id="@+id/colorOrange" android:layout_width="40dp" android:layout_height="40dp" android:layout_weight="1" android:backgroundTint="#FF9800" />
+        <Button android:id="@+id/colorYellow" android:layout_width="40dp" android:layout_height="40dp" android:layout_weight="1" android:backgroundTint="#FFEB3B" />
+        <Button android:id="@+id/colorGreen" android:layout_width="40dp" android:layout_height="40dp" android:layout_weight="1" android:backgroundTint="#4CAF50" />
+        <Button android:id="@+id/colorBlue" android:layout_width="40dp" android:layout_height="40dp" android:layout_weight="1" android:backgroundTint="#2196F3" />
+        <Button android:id="@+id/colorPurple" android:layout_width="40dp" android:layout_height="40dp" android:layout_weight="1" android:backgroundTint="#9C27B0" />
+        <Button android:id="@+id/colorPink" android:layout_width="40dp" android:layout_height="40dp" android:layout_weight="1" android:backgroundTint="#E91E63" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="4dp">
+
+        <Button android:id="@+id/sizeSmall" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="Thin" />
+        <Button android:id="@+id/sizeMedium" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="Medium" />
+        <Button android:id="@+id/sizeLarge" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="Thick" />
+        <Button android:id="@+id/btnEraser" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="Erase" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="4dp">
+
+        <Button android:id="@+id/btnClear" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="Clear" />
+        <Button android:id="@+id/btnSave" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="Save" />
+        <Button android:id="@+id/btnBackDraw" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="Back" />
+    </LinearLayout>
+</LinearLayout>

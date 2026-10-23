@@ -1,0 +1,31 @@
+TripleApp/
+├── .github/workflows/build.yml       ← Otomatik APK derleyici
+├── build.gradle
+├── settings.gradle
+├── gradle.properties
+└── app/
+    ├── build.gradle
+    └── src/main/
+        ├── AndroidManifest.xml
+        ├── java/com/example/tripleapp/
+        │   ├── MainActivity.java
+        │   ├── MusicPlayerActivity.java
+        │   ├── DrawingActivity.java
+        │   ├── DrawingView.java
+        │   └── CalculatorActivity.java
+        └── res/
+            ├── layout/
+            │   ├── activity_main.xml
+            │   ├── activity_music.xml
+            │   ├── activity_drawing.xml
+            │   └── activity_calculator.xml
+            ├── drawable/
+            │   ├── bg_gradient.xml
+            │   ├── card_music.xml
+            │   ├── card_drawing.xml
+            │   ├── card_calculator.xml
+            │   └── button_rounded.xml
+            └── values/
+                ├── strings.xml
+                ├── colors.xml
+                └── themes.xml
